@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+    .content-general {
+      padding: 60px;
+    }
+  }
+  @media (max-width: 1199.99px) and (min-width: 992px) {
+    .content-general {
+      padding: 40px;
+    }
+  }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .content-general {
+      padding: 30px;
+    }
+  }
+  @media (max-width: 767px) and (min-width: 480px) {
+    .content-general {
+      padding: 15px;
+    }
+  }
+  @media (max-width: 479px) {
+    .content-general {
+      padding: 5px;
+    }
+  }
+  .max-width {
+    max-width: 1366px;
+    margin: auto;
+  }

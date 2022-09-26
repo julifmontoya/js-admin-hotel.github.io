@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Icons size
+ ========================================================================== */
+.icon-l {
+  width: 1.2em;
+  height: 1.2em;
+}
+.icon-l {
+  vertical-align: middle;
+}
+/* ==========================================================================
+     Butons
+   ========================================================================== */
+.btn__save {
+  text-align: center;
+  margin-top: 15px;
+}
+.btn__title {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.btn--blue {
+  background: var(--color-primary);
+  color: var(--color-light);
+  border-color: var(--color-primary);
+  border-style: solid;
+}
+.btn--blue:hover {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  cursor: pointer;
+}
+.btn--white {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  border: solid 2px var(--color-primary);
+}
+.btn--white:hover {
+  color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="wrapper.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="btn.css">
+    <title>Listado Hoteles</title>
+
+</head>
+
+<body>
+    <main class="wrapper-interior">
+        <div class="content-general">
+            <div class="max-width">
+                <div class="btn__title">
+                    <a href="hotel.html" class="btn btn--blue">Crear Hotel</a>
+                </div>
+                <div class="table-container">
+                    <table class="wd-100p" id="table_hotel_list">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nombre</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="hotelList.js"></script>
+
+</html>

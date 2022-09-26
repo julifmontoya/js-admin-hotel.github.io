@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="wrapper.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="btn.css">
+    <title>Detalles del Hotel</title>
+</head>
+
+<body>
+    <main class="wrapper-interior">
+        <div class="content-general">
+            <div class="max-width">
+                <h1 class="title-main">Detalles del Hotel</h1>
+                <form onsubmit="getInput(event)">
+                    <label for="input_name" class="form-label semi-bold ">Nombre *</label>
+                    <input id="input_name" class="form-control col48md" type="text" name="name" />
+
+                    <label for="input_description" class="form-label semi-bold ">Descripcion *</label>
+                    <textarea class="form-control col48md" id="input_description" name="description"> </textarea>
+
+                    <label for="input_check_in" class="form-label semi-bold ">Check In *</label>
+                    <input id="input_check_in" class="form-control col48md" type="time" name="check_in" />
+
+                    <label for="input_check_out" class="form-label semi-bold ">Check Out *</label>
+                    <input id="input_check_out" class="form-control col48md" type="time" name="check_out" />
+
+                    <label for="input_num_rooms" class="form-label semi-bold ">Numero de Habitaciones *</label>
+                    <input id="input_num_rooms" class="form-control col48md" type="number" name="num_rooms" />
+
+                    <label for="input_stars" class="form-label semi-bold ">Estrellas *</label>
+                    <input id="input_stars" class="form-control col48md" type="number" name="stars" />
+
+                    <label for="input_address" class="form-label semi-bold ">Direccion *</label>
+                    <input id="input_address" class="form-control col48md" type="text" name="address" />
+
+                    <label for="input_latitude" class="form-label semi-bold ">Latitude *</label>
+                    <input id="input_latitude" class="form-control col48md" type="text" placeholder="Ej: 3.437222" name="latitude" />
+
+                    <label for="input_longitude" class="form-label semi-bold ">Longitude *</label>
+                    <input id="input_longitude" class="form-control col48md" type="text" placeholder="Ej: -76.5225" name="longitude" />
+
+                    <div class="btn__save">
+                        <button class="btn btn--blue mr-10" type="submit" id="btn">
+                            Enviar
+                        </button>
+                        <a class="btn btn--white" href="index.html" type="button">Atras</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    </main>
+</body>
+<script src="hotel.js"></script>
+
+</html>
+
+</html>

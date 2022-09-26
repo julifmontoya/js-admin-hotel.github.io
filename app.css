@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Colors
+ ========================================================================== */
+:root {
+  --color-background-light: #eee;
+  --color-muted: #494949;
+  --color-semi-muted: #646464;
+  --color-header-table: #545454;
+  --color-primary: #0e63f3;
+  --color-primary-hover: #0b4dbf;
+  --color-border-input: #ccc;
+  --color-light: #fff;
+  --color-danger: #ff4949;
+}
+
+/* ==========================================================================
+   General
+ ========================================================================== */
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: var(--color-background-light);
+  color: var(--color-semi-muted);
+  font-size: calc(0.875rem + ((1vw - 3.5px) * 0.1274));
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+h1 {
+  font-size: 1.616em;
+}
+h1,
+h2 {
+  line-height: 1.3;
+  color: var(--color-muted);
+}
+h3 {
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+p {
+  margin-bottom: 10px;
+}
+.bold {
+  font-weight: 700;
+}
+.semi-bold {
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+a:hover{
+  cursor: pointer;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+.text-center {
+  text-align: center;
+}
+.title-main {
+  margin-bottom: 15px;
+}
+/* ==========================================================================
+   Color icons
+ ========================================================================== */
+ .fill-primary {
+  fill: var(--color-primary);
+}
+.fill-danger {
+  fill: var(--color-danger);
+}
+/* ==========================================================================
+   Widths
+ ========================================================================== */
+.wd-100p {
+  width: 100%;
+}
+/* ==========================================================================
+   MArgins
+ ========================================================================== */
+ .mb-15 {
+  margin-bottom: 15px;
+}
+
+/* ==========================================================================
+   Input
+ ========================================================================== */
+input,
+textarea {
+  box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+  color: #999999;
+  font-family: inherit;
+  font-size: inherit;
+}
+::-moz-placeholder {
+  color: #999999;
+  font-family: inherit;
+  font-size: inherit;
+}
+:-ms-input-placeholder {
+  color: #999999;
+  font-family: inherit;
+  font-size: inherit;
+}
+::-ms-input-placeholder {
+  color: #999999;
+  font-family: inherit;
+  font-size: inherit;
+}
+::placeholder {
+  color: #999999;
+  font-family: inherit;
+  font-size: inherit;
+}
+textarea.form-control {
+  height: 160px;
+}
+textarea {
+  overflow: auto;
+  width: 100%;
+}
+.form-control {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  color: var(--color-semi-muted);
+  width: 100%;
+  height: 34px;
+  padding: 6px 7px;
+  border: 1px solid var(--color-border-input);
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.form-control:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 1px 0 var(--color-primary);
+}
