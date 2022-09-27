@@ -68,10 +68,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-.form-label {
-  display: block;
-  margin-bottom: 5px;
-}
 .text-center {
   text-align: center;
 }
@@ -98,62 +94,4 @@ ul {
  ========================================================================== */
  .mb-15 {
   margin-bottom: 15px;
-}
-
-/* ==========================================================================
-   Input
- ========================================================================== */
-input,
-textarea {
-  box-sizing: border-box;
-}
-::-webkit-input-placeholder {
-  color: #999999;
-  font-family: inherit;
-  font-size: inherit;
-}
-::-moz-placeholder {
-  color: #999999;
-  font-family: inherit;
-  font-size: inherit;
-}
-:-ms-input-placeholder {
-  color: #999999;
-  font-family: inherit;
-  font-size: inherit;
-}
-::-ms-input-placeholder {
-  color: #999999;
-  font-family: inherit;
-  font-size: inherit;
-}
-::placeholder {
-  color: #999999;
-  font-family: inherit;
-  font-size: inherit;
-}
-textarea.form-control {
-  height: 160px;
-}
-textarea {
-  overflow: auto;
-  width: 100%;
-}
-.form-control {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 500;
-  color: var(--color-semi-muted);
-  width: 100%;
-  height: 34px;
-  padding: 6px 7px;
-  border: 1px solid var(--color-border-input);
-  border-radius: 4px;
-  outline: none;
-  margin-bottom: 10px;
-}
-.form-control:focus {
-  outline: none;
-  border-color: var(--color-primary);
-  box-shadow: 0 0 1px 0 var(--color-primary);
 }
